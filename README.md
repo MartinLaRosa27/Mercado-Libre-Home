@@ -15,3 +15,4 @@ sdss
 ### Screenshots:
 
 ![alt text](https://github.com/MartinLaRosa27/Mercado-Libre-Home/blob/main/resources/screnshot01.png?raw=true)
+![alt text](https://github.com/MartinLaRosa27/Mercado-Libre-Home/blob/main/resources/screnshot02.png?raw=true)
