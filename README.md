@@ -8,9 +8,7 @@ Website that wants to be like a clone of the home page of Mercado Libre (Februar
 
 HTML / CSS / SCSS / Bootstrap / JavaScript / TypeScript / ReactJS / NextJS
 
-### DEMO:
-
-sdss
+### [DEMO](https://mercadolibrehome.netlify.app/)  
 
 ### Screenshots:
 
