@@ -1,0 +1,82 @@
+#home-offers-banner {
+  height: 250px;
+  background-color: #8533af;
+  margin-top: 75px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #fff;
+
+  .col-8 {
+    background-image: url("../assets/img/D_NQ_817191-MLA53559372167_022023-OO.png");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      border-radius: 8px;
+      width: 130px;
+      height: 100px;
+      margin-left: 40px;
+    }
+  }
+
+  .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+    h3,
+    h6 {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #home-offers-banner {
+    height: 400px;
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .col-8 {
+        width: 100%;
+      }
+
+      .col-4 {
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #home-offers-banner {
+    height: 300px;
+    .row {
+      .col-8 {
+        height: 175px;
+
+        img {
+          width: 100px;
+          height: 70px;
+        }
+      }
+
+      .col-4 {
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+}

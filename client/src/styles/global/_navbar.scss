@@ -1,0 +1,25 @@
+#global-navbar {
+  background-color: #fff159;
+
+  .send {
+    font-weight: 0.2rem !important;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #global-navbar {
+    .nav-border {
+      border-width: 1px 0 0;
+      border-style: solid;
+      border-color: #bababa;
+    }
+  }
+}
